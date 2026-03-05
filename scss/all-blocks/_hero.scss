@@ -1,0 +1,29 @@
+.hero {
+  padding: 6%;
+  height: 450px;
+  overflow: auto;
+  color: $secondary-color;
+  background: url("../../images/hero-background.png") center no-repeat;
+  display: flex;
+  align-items: center;
+
+  &__content-wrapper {
+    max-width: 27.5rem;
+  }
+
+  &__heading {
+    margin: 0 0 1.25rem;
+    font-family: $main-font-family;
+    font-weight: $main-font-weight;
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  &__desc {
+    margin: 0;
+    font-family: $secondary-font-family;
+    font-weight: $thirdly-font-weight;
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+}
