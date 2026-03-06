@@ -1,0 +1,43 @@
+.headquarters {
+  padding: 5rem 6%;
+
+  &__heading {
+    margin: 0 0 3rem;
+    font-family: $main-font-family;
+    font-weight: $main-font-weight;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: $thirdly-color;
+  }
+
+  &__locations {
+    max-width: 285px;
+    width: 100%;
+    color: $main-color;
+  }
+
+  &__title {
+    margin: 0 0 1rem;
+    font-family: $main-font-family;
+    font-weight: $main-font-weight;
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  &__address {
+    font-style: normal;
+    font-family: $secondary-font-family;
+    font-weight: $thirdly-font-weight;
+    line-height: 26px;
+  }
+
+  &__link {
+    color: inherit;
+    text-decoration-color: transparent;
+    transition: text-decoration-color 0.4s ease;
+  }
+
+  &__link:hover {
+    text-decoration-color: currentColor;
+  }
+}

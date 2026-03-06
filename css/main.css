@@ -425,6 +425,7 @@ img {
   background: url("../../images/hero-background.png") center no-repeat;
   display: flex;
   align-items: center;
+  border-radius: 10px;
 }
 .hero__content-wrapper {
   max-width: 27.5rem;
@@ -436,10 +437,104 @@ img {
   font-size: 2.5rem;
   line-height: 3rem;
 }
-.hero__desc {
+s .hero__desc {
   margin: 0;
   font-family: "Barlow", "Arial", sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.6rem;
+}
+
+.commitment {
+  padding: 5% 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #333d4b;
+}
+.commitment__right {
+  max-width: 539px;
+}
+.commitment__title {
+  margin: 0 0 1.5rem;
+  font-family: "Fraunces", "Georgia", serif;
+  font-weight: "Fraunces", "Georgia", serif;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+.commitment__desc {
+  margin: 0;
+  font-family: "Barlow", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+
+.quality {
+  padding: 5% 1%;
+  color: #fefcf7;
+  background-color: #293039;
+  border-radius: 10px;
+}
+.quality__wrapper {
+  margin-top: -8.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.quality__left {
+  max-width: 540px;
+}
+.quality__title {
+  margin: 0;
+  font-family: "Fraunces", "Georgia", serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+}
+.quality__desc {
+  margin: 0;
+  font-family: "Barlow", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+.quality__img {
+  border-radius: 8px;
+}
+
+.headquarters {
+  padding: 5rem 6%;
+}
+.headquarters__heading {
+  margin: 0 0 3rem;
+  font-family: "Fraunces", "Georgia", serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #83888f;
+}
+.headquarters__locations {
+  max-width: 285px;
+  width: 100%;
+  color: #333d4b;
+}
+.headquarters__title {
+  margin: 0 0 1rem;
+  font-family: "Fraunces", "Georgia", serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+}
+.headquarters__address {
+  font-style: normal;
+  font-family: "Barlow", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+}
+.headquarters__link {
+  color: inherit;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 0.4s ease;
+}
+.headquarters__link:hover {
+  text-decoration-color: currentColor;
 }/*# sourceMappingURL=main.css.map */

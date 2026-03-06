@@ -6,6 +6,7 @@
   background: url("../../images/hero-background.png") center no-repeat;
   display: flex;
   align-items: center;
+  border-radius: 10px;
 
   &__content-wrapper {
     max-width: 27.5rem;
@@ -18,8 +19,7 @@
     font-size: 2.5rem;
     line-height: 3rem;
   }
-
-  &__desc {
+  s &__desc {
     margin: 0;
     font-family: $secondary-font-family;
     font-weight: $thirdly-font-weight;
