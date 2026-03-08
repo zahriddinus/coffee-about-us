@@ -1,0 +1,43 @@
+@use "../variables" as *;
+
+.footer {
+  background-color: #2c343e;
+
+  & > .container {
+    background-color: #2c343e;
+  }
+
+  &__wrapper {
+    padding: 1.5rem 6.5%;
+    display: flex;
+    align-items: center;
+  }
+
+  &__right {
+    margin-left: 8%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__social-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  &__social-item + &__social-item {
+    margin-left: 1.2rem;
+  }
+
+  &__social-link {
+    text-decoration: none;
+  }
+
+  &__social-link:hover {
+    opacity: 0.8;
+  }
+}

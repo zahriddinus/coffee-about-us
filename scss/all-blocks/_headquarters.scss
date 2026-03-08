@@ -1,3 +1,5 @@
+@use "../variables" as *;
+
 .headquarters {
   padding: 5rem 6%;
 
@@ -11,24 +13,35 @@
   }
 
   &__locations {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__article {
     max-width: 285px;
     width: 100%;
-    color: $main-color;
+    height: 262px;
+    overflow: auto;
+  }
+
+  &__figure {
+    margin: 0;
+    height: 86px;
   }
 
   &__title {
     margin: 0 0 1rem;
     font-family: $main-font-family;
     font-weight: $main-font-weight;
-    font-size: 32px;
-    line-height: 36px;
+    font-size: 2rem;
+    line-height: 2.25rem;
   }
 
   &__address {
     font-style: normal;
     font-family: $secondary-font-family;
     font-weight: $thirdly-font-weight;
-    line-height: 26px;
+    line-height: 1.6rem;
   }
 
   &__link {

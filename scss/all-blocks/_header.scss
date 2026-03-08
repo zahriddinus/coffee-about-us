@@ -1,8 +1,18 @@
+@use "../variables" as *;
+
 .header {
   background-color: #fefcf7;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+  & > .container {
+    background-color: #fefcf7;
+  }
 
   &-wrapper {
-    padding: 1rem 0;
+    padding: 1.5rem 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
